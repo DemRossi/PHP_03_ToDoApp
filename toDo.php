@@ -1,18 +1,18 @@
 <?php
     $toDo = [
         [
-            "description" => "Publish portfolio site",
-            "time" => "1",
+            "description" => "Meeting klant",
+            "time" => "2",
             "category" => "Werk"
         ],
         [
             "description" => "PHP oefeningen afwerken",
-            "time" => "3",
+            "time" => "2",
             "category" => "School"
         ],
         [
             "description" => "Huishoudelijke taken",
-            "time" => "2",
+            "time" => "1",
             "category" => "Thuis"
         ],
         [
@@ -22,7 +22,7 @@
         ],
         [
             "description" => "Winkelen",
-            "time" => "3",
+            "time" => "1",
             "category" => "Thuis"
         ]
     ]
@@ -42,7 +42,9 @@
     </header>
     <main>
         <div class="post__toDo">
-            
+        <ul>
+            <?php include_once("list.inc.php"); ?>
+        </ul>
         </div>
     </main>
 </body>
