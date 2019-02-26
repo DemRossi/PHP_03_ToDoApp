@@ -1,3 +1,32 @@
+<?php
+    $toDo = [
+        [
+            "description" => "Publish portfolio site",
+            "time" => "1",
+            "category" => "Werk"
+        ],
+        [
+            "description" => "PHP oefeningen afwerken",
+            "time" => "3",
+            "category" => "School"
+        ],
+        [
+            "description" => "Huishoudelijke taken",
+            "time" => "2",
+            "category" => "Thuis"
+        ],
+        [
+            "description" => "Website klant ontwerpen",
+            "time" => "6",
+            "category" => "Werk"
+        ],
+        [
+            "description" => "Winkelen",
+            "time" => "3",
+            "category" => "Thuis"
+        ]
+    ]
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,5 +40,10 @@
     <header>
         <h1>To Do App</h1>
     </header>
+    <main>
+        <div class="post__toDo">
+            
+        </div>
+    </main>
 </body>
 </html>
